@@ -9,8 +9,8 @@
   {
     "title": "Way to pay",
     "type": "radio",
-    "text": "Card,Cash",
-    "note": "j",
+    "text": "Cash,Mpesa",
+    "note": "In cash there is a 5% discount calculated at the time of payment",
     "required": true
   }
 ]
