@@ -137,7 +137,7 @@ function CartItemDrawer({
                 onSubmit(formData);
               }}
             >
-              Agregar al pedido
+              Add to order
             </Button>
           </div>
         </SheetFooter>
