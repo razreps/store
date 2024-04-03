@@ -2,15 +2,15 @@
   {
     "title": "Shipping Address",
     "type": "text",
-    "text": "My house",
+    "text": "My house 123",
     "note": "",
     "required": true
   },
   {
     "title": "Way to pay",
     "type": "radio",
-    "text": "Card",
-    "note": "",
+    "text": "Card,Cash",
+    "note": "j",
     "required": true
   }
 ]
