@@ -23,7 +23,7 @@ const RootLayout = async ({children}: {children: React.ReactNode}) => {
   const store = await api.fetch();
 
   return (
-    <html suppressHydrationWarning lang="es">
+    <html suppressHydrationWarning lang="en-gb">
       <head />
       <body className="font-sans antialiased">
         <ThemeProvider>
@@ -85,11 +85,11 @@ const RootLayout = async ({children}: {children: React.ReactNode}) => {
                 © Copyright {new Date().getFullYear()}. Hecho con <ThemeToggle /> y Next.js, por{" "}
                 <a
                   className="underline"
-                  href="https://twitter.com/goncy"
+                  href="https://instagram.com/yaboyraz"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  goncy
+                  Raz
                 </a>
                 .
               </p>
