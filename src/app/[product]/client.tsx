@@ -23,7 +23,7 @@ export default function ProductPageClient({product}: {product: Product}) {
     <div className="flex flex-col gap-4 py-4">
       <ProductCard key={product.id} product={product} onAdd={handleAddToCart} />
       <Link className="text-center" href="/">
-        <Button variant="link">Volver al catálogo</Button>
+        <Button variant="link">Return to catalog</Button>
       </Link>
     </div>
   );
