@@ -185,7 +185,7 @@ describe("getCartMessage", () => {
     const checkout = new Map<string, string>();
 
     cart.set(Date.now(), item);
-    checkout.set("Forma de pago", "Efectivo");
+    checkout.set("Way to pay", "Card");
 
     const actual: string = getCartMessage(cart, checkout);
     const expected = `* title - $\u00a0100,00
