@@ -61,7 +61,7 @@ function CartDrawer({
           <SheetClose className="-mx-6 ml-auto h-12 w-14 rounded-l-lg border border-border bg-background py-2 pl-2 pr-4 shadow-lg">
             <X className="h-8 w-8" />
           </SheetClose>
-          <SheetTitle className="text-left text-2xl font-medium">Tu pedido</SheetTitle>
+          <SheetTitle className="text-left text-2xl font-medium">Your order</SheetTitle>
         </SheetHeader>
 
         <div className="overflow-y-auto" data-testid="cart">
@@ -88,7 +88,7 @@ function CartDrawer({
                   setCurrentStep("fields");
                 }}
               >
-                Continuar
+                Continue
               </Button>
             </div>
           ) : null}
@@ -103,7 +103,7 @@ function CartDrawer({
                   setCurrentStep("details");
                 }}
               >
-                Revisar pedido
+                Review order
               </Button>
               <a
                 className="w-full"
@@ -114,7 +114,7 @@ function CartDrawer({
                 <Button className="w-full" data-testid="complete-order" size="lg" variant="brand">
                   <div className="inline-flex items-center gap-2">
                     <WhatsappIcon />
-                    <span>Completar pedido</span>
+                    <span>Complete order</span>
                   </div>
                 </Button>
               </a>
