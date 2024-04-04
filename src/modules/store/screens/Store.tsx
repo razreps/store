@@ -76,7 +76,7 @@ function StoreScreen({products}: {products: Product[]}) {
           <SearchIcon className="absolute left-3 h-4 w-4 opacity-40" />
           <Input
             className="px-9"
-            placeholder="Buscar..."
+            placeholder="Search..."
             value={query}
             onChange={(event) => {
               setQuery(event.target.value);
